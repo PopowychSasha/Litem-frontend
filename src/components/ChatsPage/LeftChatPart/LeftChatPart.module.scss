@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.wrapper{
+    width: 400px;
+    .create-chat-title{
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: 120px;
+        font-size: 40px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .chats-list-wrapper{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 40px;
+        padding: 10px 0px;
+        border-radius:20px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .rooms-wrapper{
+        overflow-y: scroll;
+        min-height: 500px;
+        max-height: 500px;
+        border:1px solid silver;
+        border-radius:20px;
+        .active-room{
+            cursor: pointer;
+            background:linear-gradient(to right top,#419FD9,#419FD9);
+            font-style: italic;
+            width: 90%;
+            height: 80px;
+            font-size: 20px;
+            margin: auto;
+            border-radius: 20px;
+            display: flex;
+            align-items:center;
+            padding-left: 10px;
+            color:#FFF;
+            margin-bottom: 3px;
+        }
+        .anactive-room{
+            cursor: pointer;
+            width: 90%;
+            height: 80px;
+            
+            font-size: 20px;
+            background:linear-gradient(to right top,#016EFF,black);
+            margin: auto;
+            border-radius: 10px;
+            display: flex;
+            align-items:center;
+            padding-left: 10px;
+            color:#FFF;
+            margin-bottom: 3px;
+        }
+    }
+}

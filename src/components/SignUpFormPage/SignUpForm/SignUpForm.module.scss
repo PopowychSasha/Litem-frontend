@@ -1,0 +1,46 @@
+.form-wrapper{
+    width: 700px;
+    margin: auto;
+    .icon{
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .submit-link-wrapper{
+        display: flex;
+        align-items:center;
+        .submit-btn{
+            width: 200px;
+            height: 40px;
+            border-radius:10px;
+            margin: auto;
+            margin-left: 1px;
+            display: block;
+            margin: auto;
+            background-color:#01295F;
+            color:white;
+            border:1px solid #FFF;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .submit-btn:hover{
+            background-color:#FFFFFF;
+            color:#01295F;
+            border:2px solid #01295F;
+            transition: 0.5s;
+        }
+        .link-to-signup{
+            color:#FFF;
+            span{
+                color:#31BAFD;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+            span:hover{
+                font-size: 20px;
+                transition: 0.5s;
+            }
+        }
+    }
+    
+}

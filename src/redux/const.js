@@ -1,0 +1,7 @@
+export const CREATE_MESSAGE = "CREATE_MESSAGE";
+export const FETCH_MESSAGES = "FETCH_MESSAGES";
+
+export const CREATE_ROOM = "CREATE_ROOM";
+export const FETCH_ROOMS = "FETCH_ROOMS";
+
+export const DELETE_MESSAGES = "DELETE_MESSAGES";

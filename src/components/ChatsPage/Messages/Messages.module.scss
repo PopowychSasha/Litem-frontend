@@ -1,0 +1,43 @@
+.join-room-wrapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    width: 900px;
+    .chats{
+        margin-left: 100px;
+        margin-top: 20px;
+        border:1px solid silver;
+        
+        .my-message{
+            overflow-x: scroll;
+            min-width: 50px;
+            max-width: 400px;
+            min-height: 20px;
+            padding: 5px 20px 5px 20px;
+            margin-top: 40px;
+            position: relative;
+            left: 0px;
+            margin-left: 500px;
+            background-color:#EFFDDE;
+            border-radius:20px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        .not-my-message{
+            overflow-x: scroll;
+            color: black;
+            min-width: 50px;
+            max-width: 300px;
+            min-height: 20px;
+            padding: 5px 20px 5px 20px;
+            margin-top: 40px;
+            background-color:#F1F1F1;
+            border-radius:20px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+    }
+}

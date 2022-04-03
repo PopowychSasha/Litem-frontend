@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.logo-wrapper{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 150px;
+    .logo{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+        transition: 1s;
+    }
+    .logo:hover{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+        transform: rotate(10deg);
+        transition: 1s;
+    }
+    .project-name{
+        font-size: 40px;
+        color:#FFFFFF;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        transition: 1s;
+        margin-top: 20px;
+        padding: 20px;
+        height: 90px;
+    }
+    .project-name:hover{
+        font-size: 35px;
+        transition: 1s;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Work+Sans:wght@300&display=swap');
+.btn{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border:1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color:#80C2FF;
+    font-weight: 700;
+    margin-top: 25px;
+    margin: auto;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#80C2FF;
+    color:#FFFFFF;
+    transition: 1s;
+    cursor: pointer;
+}

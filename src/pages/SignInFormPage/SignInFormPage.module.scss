@@ -1,0 +1,14 @@
+.sign-in-page{
+    transition: 2s;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top,#016EFF,black);
+    display: flex;
+    justify-content: space-around;
+    
+    .wertical-line{
+        width: 2px;
+        height: 100vh;
+        background-color: grey;
+    }
+}
