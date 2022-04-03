@@ -20,7 +20,7 @@ const Messages = () => {
   const onSendMessageHandler = (e) => {
     e.preventDefault();
     if (message.trim() !== "") {
-      axios.post("/api/auth/sendMessage", {
+      axios.post("https://litemback.herokuapp.com/api/auth/sendMessage", {
         message: message,
         userId: localStorage.getItem("_id"),
         roomId: localStorage.getItem("roomId"),
@@ -48,7 +48,7 @@ const Messages = () => {
     chartListRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     if (localStorage.getItem("room") !== "") {
       axios
-        .post("/api/auth/fetchMessages", {
+        .post("https://litemback.herokuapp.com/api/auth/fetchMessages", {
           roomId: localStorage.getItem("roomId"),
         })
         .then((res) => dispatch(fetchMessagesCreator(res.data.messages)))

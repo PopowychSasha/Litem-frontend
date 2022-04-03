@@ -28,7 +28,7 @@ const LeftChatPart = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     axios
-      .post("/api/auth/fetchRooms", {
+      .post("https://litemback.herokuapp.com/api/auth/fetchRooms", {
         _id: localStorage.getItem("_id"),
       })
       .then(({ data }) => {
@@ -44,7 +44,7 @@ const LeftChatPart = () => {
     localStorage.setItem("roomId", roomId);
 
     axios
-      .post("/api/auth/fetchMessages", {
+      .post("https://litemback.herokuapp.com/api/auth/fetchMessages", {
         roomId: localStorage.getItem("roomId"),
       })
       .then((res) => {
@@ -74,7 +74,7 @@ const LeftChatPart = () => {
     e.preventDefault();
     if (room !== "" && freandNick !== "") {
       axios
-        .post("/api/auth/createRoom", {
+        .post("https://litemback.herokuapp.com/api/auth/createRoom", {
           roomName: room,
           myId: myId,
           freandNick: freandNick,

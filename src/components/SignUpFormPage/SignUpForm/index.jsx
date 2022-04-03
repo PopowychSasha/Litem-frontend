@@ -64,7 +64,7 @@ const SignUpForm = () => {
     }
 
     axios
-      .post("http://localhost:5000/api/auth/register", {
+      .post("https://litemback.herokuapp.com/api/auth/register", {
         nickname: nickname,
         email: email,
         phoneNumber: phoneNumber,

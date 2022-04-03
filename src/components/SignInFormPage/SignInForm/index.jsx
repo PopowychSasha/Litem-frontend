@@ -31,7 +31,7 @@ const SignInForm = () => {
       return;
     }
     axios
-      .post("/api/auth/login", {
+      .post("https://litemback.herokuapp.com/api/auth/login", {
         nickname: nickname,
         password: password,
       })

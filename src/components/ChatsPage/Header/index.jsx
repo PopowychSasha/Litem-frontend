@@ -14,7 +14,7 @@ const Header = () => {
 
   useEffect(() => {
     axios
-      .post("/api/auth/account", { _id: localStorage.getItem("_id") })
+      .post("https://litemback.herokuapp.com/api/auth/account", { _id: localStorage.getItem("_id") })
       .then(({ data }) => setAccountData(data));
   }, []);
 
